@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: pinax-teams
+Version: 3.0.0
+Summary: An app for Django sites that supports open, by invitation, and by application teams
+Home-page: http://github.com/pinax/pinax-teams/
+Author: Pinax Team
+Author-email: team@pinaxproject.com
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: django (>=3.2)
+Requires-Dist: django-reversion (>=5.0.4)
+Requires-Dist: pinax-invitations (>=8.0.0)
+Requires-Dist: python-slugify (>=7.0.0)
+Requires-Dist: Pillow (>=9.3.0)
+Requires-Dist: django-user-accounts (>=3.2.0)
+
+
+.. image:: http://pinaxproject.com/pinax-design/patches/pinax-teams.svg
+    :target: https://pypi.python.org/pypi/pinax-teams/
+
+===========
+Pinax Teams
+===========
+
+.. image:: https://img.shields.io/pypi/v/pinax-teams.svg
+    :target: https://pypi.python.org/pypi/pinax-teams/
+
+\ 
+
+.. image:: https://img.shields.io/circleci/project/github/pinax/pinax-teams.svg
+    :target: https://circleci.com/gh/pinax/pinax-teams
+.. image:: https://img.shields.io/codecov/c/github/pinax/pinax-teams.svg
+    :target: https://codecov.io/gh/pinax/pinax-teams
+.. image:: https://img.shields.io/github/contributors/pinax/pinax-teams.svg
+    :target: https://github.com/pinax/pinax-teams/graphs/contributors
+.. image:: https://img.shields.io/github/issues-pr/pinax/pinax-teams.svg
+    :target: https://github.com/pinax/pinax-teams/pulls
+.. image:: https://img.shields.io/github/issues-pr-closed/pinax/pinax-teams.svg
+    :target: https://github.com/pinax/pinax-teams/pulls?q=is%3Apr+is%3Aclosed
+
+\ 
+
+.. image:: http://slack.pinaxproject.com/badge.svg
+    :target: http://slack.pinaxproject.com/
+.. image:: https://img.shields.io/badge/license-MIT-blue.svg
+    :target: https://pypi.python.org/pypi/pinax-teams/
+
+\ 
+
+``pinax-teams`` is an app for Django sites that supports open, by invitation, and by application teams.
+
+Supported Django and Python Versions
+------------------------------------
+
++-----------------+-----+-----+-----+-----+
+| Django / Python | 3.7 | 3.8 | 3.9 | 3.10|
++=================+=====+=====+=====+=====+
+|  3.2            |  *  |  *  |  *  |  *  |
++-----------------+-----+-----+-----+-----+
+|  4.1            |  -  |  -  |  -  |  *  |
++-----------------+-----+-----+-----+-----+

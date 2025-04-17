@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: pinax-invitations
+Version: 8.0.0
+Summary: a user to user join invitations app
+Home-page: http://github.com/pinax/pinax-invitations/
+Author: Pinax Team
+Author-email: team@pinaxproject.com
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: django (>=3.2)
+Requires-Dist: django-appconf (>=1.0.5)
+Requires-Dist: django-user-accounts (>=3.2.0)
+
+
+.. image:: http://pinaxproject.com/pinax-design/patches/pinax-invitations.svg
+    :target: https://pypi.python.org/pypi/pinax-invitations/
+
+=================
+Pinax Invitations
+=================
+
+.. image:: https://img.shields.io/pypi/v/pinax-invitations.svg
+    :target: https://pypi.python.org/pypi/pinax-invitations/
+
+
+.. image:: https://img.shields.io/circleci/project/github/pinax/pinax-invitations.svg
+    :target: https://circleci.com/gh/pinax/pinax-invitations
+.. image:: https://img.shields.io/codecov/c/github/pinax/pinax-invitations.svg
+    :target: https://codecov.io/gh/pinax/pinax-invitations
+.. image:: https://img.shields.io/github/contributors/pinax/pinax-invitations.svg
+    :target: https://github.com/pinax/pinax-invitations/graphs/contributors
+.. image:: https://img.shields.io/github/issues-pr/pinax/pinax-invitations.svg
+    :target: https://github.com/pinax/pinax-invitations/pulls
+.. image:: https://img.shields.io/github/issues-pr-closed/pinax/pinax-invitations.svg
+    :target: https://github.com/pinax/pinax-invitations/pulls?q=is%3Apr+is%3Aclosed
+
+
+.. image:: http://slack.pinaxproject.com/badge.svg
+    :target: http://slack.pinaxproject.com/
+.. image:: https://img.shields.io/badge/license-MIT-blue.svg
+    :target: https://opensource.org/licenses/MIT/
+
+
+``pinax-invitations`` is a user to user join invitations app.
+
+Supported Django and Python Versions
+------------------------------------
+
++-----------------+-----+-----+-----+------+
+| Django / Python | 3.7 | 3.8 | 3.9 | 3.10 |
++=================+=====+=====+=====+======+
+|  3.2            |  *  |  *  |  *  |  *   |
++-----------------+-----+-----+-----+------+
+|  4.0            |  *  |  *  |  *  |  *   |
++-----------------+-----+-----+-----+------+
+|  4.1            |  *  |  *  |  *  |  *   |
++-----------------+-----+-----+-----+------+
